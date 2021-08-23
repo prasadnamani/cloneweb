@@ -1,0 +1,22 @@
+
+.main {
+    padding: 4rem 3rem;
+    margin : 0 auto;
+    margin-bottom: 0rem; 
+    background-image:url('https://website-assets-fw.freshworks.com/attachments/cks7v2jv501lmrffzrb67m1ua-gradient.one-half.png');
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    border-radius: .3rem;
+    height: 700px;
+    position: sticky;
+    margin-top: 0px ; 
+    box-shadow: inset;
+    padding-left: 30px;
+    display: flex;
+    text-align: center;
+   
+}
+
+
+
+
