@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
 
   body:{
       //display:'flex',
-      margin:'0 auto',
+      marginLeft:'0px',
      padding: theme.spacing(1),
       //padding:'0px',
       //marginTop:'0px',

@@ -6,13 +6,13 @@ export default function Comp(){
     const imgstyle={
       width:'70%',
       height:'70%',
-      margin:"0px 20px 0px",
+      margin:"0px 20px  0px 0px",
       
     };
     
     return(
         
-        <div style={{paddingTop:"50px 0px 0px",backgroundColor:'grey'}}>
+        <div style={{padding:"50px 40px 0px",backgroundColor:'grey'}}>
             <Grid container spacing={4}>
             <Grid item xs={12}>
                     <h1>Trusted by 50K+ customers big and small</h1>

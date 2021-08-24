@@ -5,11 +5,11 @@ import { Grid } from '@material-ui/core';
 export default function Div(){
     const gadjust={
        
-        padding:"0px 30px 40px 20px",
+        padding:"0px 30px 40px 40px",
     
     }
     return(
-        <div style={{margin:"100px 0px 0px",backgroundColor:'rgb(11,19,32)',color:'white',textAlign:'left'}}>
+        <div style={{margin:"100px 0px 0px 0px",backgroundColor:'rgb(11,19,32)',color:'white',textAlign:'left'}}>
           <Grid container spacing={10} style={gadjust} >
               
                 <Grid item xs={12} >

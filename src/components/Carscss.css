@@ -1,10 +1,11 @@
 .adjust{
-    margin:30px 60px 0px 60px;
+    margin:60px 60px 0px 60px;
+    background-color: rgb(75, 92, 78);
 }
 
 .sliderimg{
     margin-top: 20px;
-    width: 100%;
-    height: 400px;
+    width: 40%;
+    height: 40%;
     object-fit:cover;
   }

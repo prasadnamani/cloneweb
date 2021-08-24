@@ -17,7 +17,7 @@ export default function Articles(){
              <h1>What’s new at Freshworks</h1>  
              </div>
 
-        <div style={{margin:"0px auto",padding:"10px 0px 10px"}}>
+        <div style={{margin:"0px auto",padding:"10px 30px 10px 40px"}}>
             <Grid container spacing={4} style={gadjust} >
                 <Grid item xs={12} sm={4} md={4} >
                     

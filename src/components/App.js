@@ -6,7 +6,7 @@ import Div from './Div';
 import Life from './Life';
 import Articles from './Articles';
 import Ready from './Ready'; 
-//import Caurosal from './Caurosal'
+import Caurosal from './Caurosal'
 export default function App() {
    
     return(
@@ -17,7 +17,7 @@ export default function App() {
         
         <Div />
         <Comp />
-        {/*<Caurosal />*/}
+        <Caurosal />
         <Life />
         <Articles />
         <Ready />

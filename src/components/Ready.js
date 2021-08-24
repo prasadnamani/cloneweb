@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
         flexGrow:1,
         
         margin:'50px 0px 0px',
+        padding:"0px 40px 0px",
         backgroundColor:'#0b1320',
         backgroundImage:"url(https://website-assets-fw.freshworks.com/attachments/cksejum4900q4sng0frxzqm0j-banner1.full.png)",
         backgroundRepeat:'none',
