@@ -17,12 +17,11 @@ const useStyles = makeStyles((theme) => ({
         // backgroundColor: 'rgba(186, 211, 76, 0.1)',
   
     },
+    
     adj:{
-      marginTop:'90px',
+      marginTop:'50px',
     },
-    head:{
-      fontSize:'40px',
-    },
+   
     btn:{
       listStyleType:'none',
      
@@ -47,7 +46,7 @@ export default function Call(){
      
       <Grid item xs={12}>
         <div className={classes.adj}>
-            <h1 className={classes.head}>An experience they’ll love</h1>
+            <h2 style={{fontSize:"30px",}}>An experience they’ll love</h2>
              <p style={{fontSize:'18px'}}>Our fresh approach to business software has enabled over 50,000 companies big and small across the globe to exceed customer and employee expectations. We deliver on the unfulfilled promise of easy-to-use SaaS software, and help our customers drive clear business results.</p>
 
         </div>
@@ -60,14 +59,14 @@ export default function Call(){
       
       <div style={{margin:"30px 0px 0px",textAlign:'center'}}>
            <img src="https://website-assets-fw.freshworks.com/attachments/ckseg6ken0ugrpkg0ba4l86we-ill-delight-customers.one-half.jpg" alt="hello" width="100%" height="100%" style={{padding:"0px 0px 0px 0px"}}></img>
-           <h1>Delight your customers</h1>
+           <h1 style={{fontSize:"50px"}}>Delight your customers</h1>
            <p>Exceed the evolving expectations your customers have, with contextual and relevant conversations powered by a 360-degree customer view.</p>
-           <Button variant="contained" color="primary" >
+           <Button variant="contained" color="primary" size="large" >
              SOLUTIONS FOR CUSTOMER SUPPORT
             </Button>
          <br />
          <br />
-         <Button variant="contained" color="primary" >
+         <Button variant="contained" color="primary" size="large">
              
           SOLUTIONS FOR SALES AND MARKETING
          </Button>
@@ -77,14 +76,14 @@ export default function Call(){
       <Grid item xs={12} sm={6}>
       <div style={{margin:"30px 0px 0px"}}>
            <img src="https://website-assets-fw.freshworks.com/attachments/cksegclxu23k2klfze5r4817y-ill-delight-employees.one-half.jpg" alt="hello" width="100%" height="100%"></img>
-           <h1>Delight your employees</h1>
+           <h1 style={{fontSize:"50px"}}>Delight your employees</h1>
            <p>Help your employees crush internal NPS ratings with our intuitive, easy-to-use products, so they can spend less time navigating bloated, difficult-to-use legacy software.</p>
-           <Button variant="contained" color="primary" >
+           <Button variant="contained" color="primary" size="large">
              SOLUTIONS FOR IT SRVICE MANAGEMENT
             </Button>
          <br />
          <br />
-         <Button variant="contained" color="primary" >
+         <Button variant="contained" color="primary" size="large">
              
           SOLUTIONS FOR HR MANAGEMENT
          </Button>

@@ -1,64 +1,61 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core';
 import { Grid } from '@material-ui/core';
-import { mergeClasses } from '@material-ui/styles';
 
-const useStyles = makeStyles((theme) => ({
 
-    body:{
-        display:'flex',
-        position:'static',
-        flexGrow:1,
-        padding: theme.spacing(0),
-        margin:'0px 50px 0px'
-        // background:'linear-gradient(170deg,deepskyblue 20%,navy 90%)',
-        // backgroundColor: 'rgba(186, 211, 76, 0.1)',
-  
-    },
-    adj:{
-        padding:'50px',
-    }
-    
-  }));
 export default function Comp(){
     const imgstyle={
-      width:'100%',
-      height:'100%',
-      margin:"0px 20px 0px",
+      width:'50%',
+      height:'50%',
+      margin:"50px 20px 0px",
       
     };
     
     return(
         
         <div>
-            <Grid container className={mergeClasses.adj}>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+            <Grid container spacing={4}>
+            <Grid item xs={12}>
+                    <h1>rusted by 50K+ customers big and small</h1>
+                    <p>We are a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes. Businesses from more than 120 countries around the world use Freshworks’ products to delight their customers and employees every day.</p>
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                <Grid item xs={3} >
+                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" style={imgstyle} alt="" ></img>
+                   
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                   
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/cjof9itid006mfjfzxvl4ytpx-logo-bridgestone.one-half.png" style={imgstyle} alt="" ></img>
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                <Grid item xs={3}>
+                   <img src="https://website-assets-fw.freshworks.com/attachments/cjof9j9f3005tb1g0nbbmckre-logo-buying-show.one-half.png" style={imgstyle} alt="" ></img>
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/cjof9rgj200bdb1g0uurm44o4-logo-teamviewer.one-half.png" style={imgstyle} alt="" ></img>
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/cjuv4xqrb00glhfg0115znjzk-group-6-copy-5.one-half.png" style={imgstyle} alt="" ></img>
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/cjqp1qi61022tfyg0mh343dzl-klarna2x.one-half.png" style={imgstyle} alt="" ></img>
                 </Grid>
-                <Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
-                </Grid><Grid item xs={2}>
-                    <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" alt="pearson" style={imgstyle}></img>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/ckjmi0rks07lk4qg10s5lso0y-multichoice.one-half.png" style={imgstyle} alt="" ></img>
                 </Grid>
-                
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/ckjmirr4907mgodfzq0ndvi0m-deichmann.one-half.png" style={imgstyle} alt="" ></img>
+                </Grid>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/ckk3fdeji00gjrug1wqrzyjr5-untitled-design-24.one-half.png" style={imgstyle} alt="" ></img>
+                </Grid>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/ckjmmrbao09644qg1lgjafjv2-untitled-design-29.one-half.png" style={imgstyle} alt="" ></img>
+                </Grid>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/ckjmmir9f08tvodfzxduqa4i5-untitled-design-27.one-half.png" style={imgstyle} alt="" ></img>
+                </Grid>
+                <Grid item xs={3}>
+                    <img src="https://website-assets-fw.freshworks.com/attachments/ckjmmabb108xh4qg1urqz0dlf-untitled-design-25.one-half.png" style={imgstyle} alt="" ></img>
+                </Grid>
             </Grid>
         </div>
     )
