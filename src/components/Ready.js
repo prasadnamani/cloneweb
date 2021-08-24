@@ -10,7 +10,7 @@ const useStyles = makeStyles((theme) => ({
         
         flexGrow:1,
         
-        margin:'30px 0px 0px',
+        margin:'50px 0px 0px',
         backgroundColor:'#0b1320',
         backgroundImage:"url(https://website-assets-fw.freshworks.com/attachments/cksejum4900q4sng0frxzqm0j-banner1.full.png)",
         backgroundRepeat:'none',
@@ -26,17 +26,18 @@ export default function Ready(){
         <div>
         
         <div className={classes.body}>
-            <Grid container spacing={4}>
-            <Grid item xs={12}>
+            <Grid container spacing={5}>
+                <Grid item xs={12}>
                     <h1>Ready to get started?</h1>
                     <p>Join our community of 50,000+ companies of all sizes who use Freshworks’ modern SaaS products to make it fast and easy to delight their customers and employees.</p>
+                    <Button color="secondary" variant="contained" size="large" >SEE LIFE AT FRESH WORKS </Button>
                 </Grid>
                 
                 
             </Grid>
-            <div style={{margin:"100px 0px 0px ",textAlign:"center"}}>
-                <Button color="secondary" variant="contained" size="large" >SEE LIFE AT FRESH WORKS </Button>
-                </div> 
+            
+               
+                
 
         
          </div>

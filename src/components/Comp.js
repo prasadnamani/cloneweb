@@ -4,21 +4,21 @@ import { Grid } from '@material-ui/core';
 
 export default function Comp(){
     const imgstyle={
-      width:'50%',
-      height:'50%',
-      margin:"50px 20px 0px",
+      width:'70%',
+      height:'70%',
+      margin:"0px 20px 0px",
       
     };
     
     return(
         
-        <div>
+        <div style={{paddingTop:"50px 0px 0px",backgroundColor:'grey'}}>
             <Grid container spacing={4}>
             <Grid item xs={12}>
-                    <h1>rusted by 50K+ customers big and small</h1>
-                    <p>We are a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes. Businesses from more than 120 countries around the world use Freshworks’ products to delight their customers and employees every day.</p>
+                    <h1>Trusted by 50K+ customers big and small</h1>
+                    <p style={{fontSize:"15px"}}>We are a leading provider of modern SaaS solutions that solve multiple, complex business problems to companies of all sizes. Businesses from more than 120 countries around the world use Freshworks’ products to delight their customers and employees every day.</p>
                 </Grid>
-                <Grid item xs={3} >
+                <Grid item xs={3} md={3} >
                     <img src="https://website-assets-fw.freshworks.com/attachments/cjofbed7300ehb2g0mip1g658-logo-pearson.one-half.png" style={imgstyle} alt="" ></img>
                    
                 </Grid>
