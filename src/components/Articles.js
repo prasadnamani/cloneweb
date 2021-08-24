@@ -17,8 +17,8 @@ export default function Articles(){
              <h1>What’s new at Freshworks</h1>  
              </div>
 
-        <div style={{margin:"50px 0px 50px 0px",padding:"10px 0px 10px"}}>
-            <Grid container spacing={10} style={gadjust} >
+        <div style={{margin:"0px auto",padding:"10px 0px 10px"}}>
+            <Grid container spacing={4} style={gadjust} >
                 <Grid item xs={12} sm={4} md={4} >
                     
                     <img src="https://website-assets-fw.freshworks.com/attachments/cksej2r4n00eto2fzfmuqumae-whatsnew-tile-337x240-cloud100.one-half.png" alt="yell" width="100%" height="100%"></img>

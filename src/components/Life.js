@@ -10,9 +10,9 @@ export default function Life(){
     
     }
     return(
-        <div style={{margin:"90px 30px 0px",}}>
+        <div style={{margin:"60px 30px 0px",}}>
             <div>
-          <Grid container spacing={10} style={gadjust} >
+          <Grid container spacing={4} style={gadjust} >
               
                 <Grid item xs={12} >
                     <h1 style={{textAlign:"center"}}>We aspire to be one of the most loved companies in the world</h1>
